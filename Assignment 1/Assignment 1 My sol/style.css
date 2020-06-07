@@ -1,0 +1,121 @@
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    /* padding: 0px 200px; */
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    /* border-bottom: 1px solid transparent; */
+    border-color: #080808;
+    /* padding-bottom: 50px; */
+    min-height: 50px;
+}
+
+nav {
+    padding: 0 70px;
+}
+
+ul {
+    padding-top: 5px;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+li {
+    display: block;
+    padding: 14px 16px;
+    float: right;
+}
+
+li> a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.content {
+    background-image: url("Resources/intro-bg_2.jpg");
+    height: 530px;
+    background-size: cover;
+    text-align: center;
+}
+
+.shopnow {
+    background-color: rgba(0, 0, 0, 0.65);
+    display: inline-block;
+    text-align: center;
+    margin-top: 140px;
+    color: #fff;
+    vertical-align: middle;
+    padding: 50px 150px;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #c9302c;
+    border: none;
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left:1%;
+    padding-top: 50px;
+}
+
+.thumbnail {
+    display: block;
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.caption {
+    color:#000;
+    padding:0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 0;
+}
