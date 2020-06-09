@@ -1,0 +1,86 @@
+body {
+    font-family: Lato, sans-serif, Roboto;
+    width: 99.5%;
+    overflow-x: hidden;
+}
+
+.container {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.span {
+    font-family: sans-serif;
+}
+
+.banner_image {
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    height: 530px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(Resources/intro-bg_1.jpg) no-repeat center center;
+}
+
+#banner_content {
+    text-align: center;
+    /* position: relative; */
+    padding: 14% 6%;
+    /* margin-top: 12%; */
+    /* margin-left: 240px; */
+    /* margin-bottom: 12%; */
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%
+}
+
+#row {
+    margin-top: 7%;
+}
+
+.form-text {
+    font-weight: bold;
+    font-family: Lato;
+}
+
+.panel-warning {
+    font-style: italic;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+#jumbotron {
+    margin-top: 100px;
+}
+
+#btn {
+    width: 100%;
+}
+
+.caption {
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.borderless {
+    border: none;
+    border-top: none;
+}
+
+.success {
+    font-size: 17px;
+}
